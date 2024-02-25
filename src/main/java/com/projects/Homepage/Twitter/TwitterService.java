@@ -25,7 +25,7 @@ public class TwitterService {
     @Autowired
     TweetRepository tweetRepository;
 
-    @Scheduled(fixedRate = 60000)
+    //@Scheduled(fixedRate = 60000)
     public void getTweets(){
 
         System.out.println("Getting new tweets");
